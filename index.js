@@ -3,7 +3,7 @@
  */
 'use strict';
 const TOKEN         = '545695522:AAHNtjFBIJMy8o7UTZ5Z00gLfMkw5MMSPfU';
-const APIKEY 		= 'TRN-Api-Key: 45407305-e16a-400b-9ec7-8e062ee89332';
+const APIKEY 		= '45407305-e16a-400b-9ec7-8e062ee89332';
 const TelegramBot   = require('node-telegram-bot-api');
 const options = {
 	polling: true
@@ -14,7 +14,7 @@ var Client = require('node-rest-client').Client;
  
 var client = new Client();
 var args = {
-    headers: { 'TRN-Api-Key': '45407305-e16a-400b-9ec7-8e062ee89332' }
+    headers: { 'TRN-Api-Key': APIKEY }
 };
 
 bot.on('message', (msg) => {
