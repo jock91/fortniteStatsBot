@@ -1,7 +1,5 @@
-/**
- * Created by longstone on 28/06/15.
- */
 'use strict';
+
 const TOKEN         = '545695522:AAHNtjFBIJMy8o7UTZ5Z00gLfMkw5MMSPfU';
 const APIKEY 		= '45407305-e16a-400b-9ec7-8e062ee89332';
 const TelegramBot   = require('node-telegram-bot-api');
